@@ -105,7 +105,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     #calc-container {
-        width:60vw;
+        width:63vw;
     }
     
     #display {
