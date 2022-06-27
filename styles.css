@@ -15,7 +15,7 @@ body {
 
 #calc-container {
     background-color:black;
-    width:22vw;
+    width:23vw;
     height:70vh;
     border-radius:6px;
     box-shadow:4px 4px 4px lavender;
@@ -89,4 +89,28 @@ body {
 .symbol {
     background-color:#7A4988;
     color:white;
+}
+
+@media only screen and (max-width: 992px) {
+    #calc-container {
+        width:35vw;
+    }
+
+    #display {
+        display:flex;
+        flex-direction:column;
+        justify-content:end;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #calc-container {
+        width:60vw;
+    }
+    
+    #display {
+        display:flex;
+        flex-direction:column;
+        justify-content:end;
+    }
 }
